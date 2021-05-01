@@ -1,0 +1,21 @@
+.notification
+  position: fixed
+  top: 20px
+  right: 0px
+  min-width: 200px
+  max-width: 400px
+  padding: 10px
+  display: block
+  text-align: center
+  transition: .5s
+  &--danger
+    background: rgba(#dc3545, 1)
+  &--primary
+    background: rgba(#28a745, .3)
+  &--hidden
+    // display: none
+    transition: .5s
+    right: -500px
+  &__msg
+    color: #fff
+    margin: 0

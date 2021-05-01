@@ -1,0 +1,35 @@
+.lists
+  margin-top: 20px
+  box-shadow: -2px 2px 10px rgba(#000, .15)
+  &__head
+    padding: 10px 15px
+    background: #28a745
+    color: #fff
+    font-size: 20px
+    font-weight: bold
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+  &-body
+    &__text
+    &-inner
+      &-content
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 10px 10px
+        border-bottom: 1px solid rgba(#000, .15)
+        transition: .2s
+        &:last-child
+          border-bottom: none
+        &:hover
+          background: #e9e8e8
+          transition: .2s
+        &__name
+          margin: 0
+          flex-basis: 80%
+          cursor: pointer
+        &__icon
+          &:hover
+            cursor: pointer
+          i
+            color: #dc3545

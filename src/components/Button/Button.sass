@@ -1,0 +1,28 @@
+.button
+  margin: 10px 0
+  padding: 10px 20px
+  cursor: pointer
+  border: none
+  background: #28a745
+  color: #fff
+  border-radius: 4px
+  transition: .2s
+  &:hover
+    background: lighten(#28a745, 10%)
+    transition: .2s
+  &:focus
+    outline: none
+  &--small
+    padding: 5px 10px
+  &--secondary
+    background: #fff
+    color: #000
+    &:hover
+      background: darken(#fff, 10%)
+      transition: .2s
+  &--danger
+    background: #dc3545
+    &:hover
+      background: darken(#dc3545, 10%)
+      transition: .2s
+      color: #fff
